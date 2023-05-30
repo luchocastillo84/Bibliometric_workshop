@@ -1,7 +1,6 @@
 ---
 title: "Introductory Workshop To Bibliometrics"
-author: "Luis Carlos Castillo"
-email: "l.castillotellez@campus.uniurb.it"
+author: "Luis Carlos Castillo[^1]"
 institute: "University of Urbino"
 date: "`r Sys.Date()`"
 output:
@@ -16,7 +15,7 @@ header-includes:
     \renewcommand{\headrulewidth}{0pt} % remove rule below header
 urlcolor: blue
 ---
-
+[^1]: PhD candidate in Global Studies. Email: l.castillotellez@campus.uniurb.it
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -135,7 +134,7 @@ To access the folder, please follow this link: [Google Drive Folder Link](https:
 **GitHub Repository:**
 
 Includes all R scripts used during the workshop, as well as example datasets and outputs.
-To access the repository, please follow this link: [GitHub Repository Link][]
+To access the repository, please follow this link: [GitHub Repository Link](https://github.com/luchocastillo84/Bibliometric_workshop)
 Feel free to add your own resources or suggestions to these collaborative spaces. 
 
 
