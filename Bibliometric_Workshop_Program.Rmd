@@ -1,0 +1,149 @@
+---
+title: "Introductory Workshop To Bibliometrics"
+author: "Luis Carlos Castillo"
+email: "l.castillotellez@campus.uniurb.it"
+institute: "University of Urbino"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: no
+header-includes:
+  - |
+    \usepackage{fancyhdr}
+    \addtolength{\headheight}{1.0cm} % make more space for the header
+    \pagestyle{fancyplain} % use fancy for all pages except chapter start
+    \rhead{\includegraphics[height=1.8cm]{UniUrb-logo.png}} % right logo
+    \renewcommand{\headrulewidth}{0pt} % remove rule below header
+urlcolor: blue
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Objectives of the Workshop
+
+The objectives of this workshop are to:
+
+  - Introduce students to bibliometric analysis and its importance in academic research.
+  - Train students on how to extract bibliometric data from Scopus and Web of Science, two major academic databases.
+  - Teach students how to import, clean, process, and merge data in R, a powerful statistical programming language.
+  
+## Skills Attained by Students
+
+Upon completion of this workshop, students will be able to:
+
+ - Understand the value of bibliometrics in research and academia.
+ - Extract bibliometric data from Scopus and Web of Science.
+ - Use R to load, clean, process, and merge bibliometric datasets.
+
+## Why Bibliometrics?
+
+Unlike traditional techniques, bibliometric analysis allows for a quantitative assessment of the scientific output. It offers an objective measure of research productivity, impact, and influence while visualising relationships and patterns in a scientific field. With bibliometrics, we can analyze more extensive sets of scientific literature more efficiently, making it an excellent tool for understanding trends and uncovering gaps.
+
+When used in conjunction with qualitative methods like systematic reviews, bibliometric analysis can provide a more holistic understanding of a research field. While systematic reviews offer in-depth insights into selected papers, bibliometric analysis can give a broader overview, uncovering patterns and trends that might not be apparent from a narrower focus.
+
+#    Session 1: Data Collection and Preparation (1 hour)
+
+###   1. Introduction (15 minutes)
+  
+  - Definition of Bibliometrics
+  - Importance of Bibliometric Analysis
+  - The Role of Scopus and Web of Science Databases
+  
+###   2. Downloading Raw Data (20 minutes)
+
+  - A step-by-step guide to downloading data from Scopus
+  - Searching for articles, authors, or institutions
+  - Exporting search results
+  - A step-by-step guide to downloading data from Web of Science
+  - Searching for articles, authors, or institutions
+  - Exporting search results
+  
+###   3. Loading the Data in R (10 minutes)
+
+  - Introduction to R and RStudio (if needed)
+  - Reading and loading data into R
+  
+###    4. Data Exploration (15 minutes)
+
+  - Structure of bibliometric data
+  - Using R functions to explore and understand data (head, summary, str)
+  
+
+#   Session 2: Data processing and Merging (1 hour)
+
+
+###    1. Data Processing (30 minutes)
+
+  - Cleaning the data (e.g., missing data, inconsistent entries)
+  - Normalizing data (if needed)
+  
+###    2. Data Merging (30 minutes)
+
+  - Merging data from different sources (Scopus and Web of Science)
+  - Dealing with duplicate entries
+
+
+##   Pre-Workshop Instructions:
+
+In order to ensure that our workshop runs smoothly, please complete the following steps before attending:
+
+###   1.	Install R and RStudio:
+
+  - R is a programming language used for statistical computing. Download and install R from [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/)  .
+  - RStudio is an integrated development environment for R. It makes using R much easier. Download and install RStudio from the [RStudio website](https://rstudio.com/products/rstudio/download/) .
+  
+###   2.	Access to Web of Science and Scopus:
+
+  - Please ensure you have access to Web of Science and Scopus. These are databases that index academic papers across various disciplines.
+  - If you're a student or faculty member at Urbino University, you should have free access through your institution. Please verify your access.
+  
+###   3.	Familiarize yourself with R (optional):
+
+  - If you're new to R, you may find it helpful to familiarize yourself with some basics before the workshop. Free online resources, like [R for Data Science](https://r4ds.had.co.nz/) or [DataCamp's Introduction to R](https://app.datacamp.com/learn/courses/free-introduction-to-r), can help you get started.
+  
+## Pre-Workshop Readings(Optional):
+
+For a deeper understanding of the topics we will be covering in the workshop, please consider reading the following papers:
+
+[Donthu et el. (2021)](https://drive.google.com/file/d/1SsTu9hJle0cUTIqTnTRPpR7FOFGknrCc/view?usp=share_link) - How to conduct a bibliometric analysis: An overview and guidelines.
+
+[Cuccurullo and Aria (2017)](https://drive.google.com/file/d/1juGsZmE5YlGkpn-IfyZPm7cOhugUYeii/view?usp=share_link) - bibliometrix: An R-tool for comprehensive science mapping analysis.
+
+[Bales et al. (2019)](https://drive.google.com/file/d/1MFXcxcHcHv-E4vMnUnMKZ7ct0V0XmSpv/view?usp=share_link) - Bibliometric Visualization and Analysis Software: State of the Art, Workflows, and Best Practices.
+
+[Echchakoui (2020)](https://drive.google.com/file/d/1JsOU5QD_sZFNjofYxsQIjOWCyqvM6F_y/view?usp=share_link) - Why and how to merge Scopus and Web of Science during bibliometric 
+analysis: the case of sales force literature from 1912 to 2019.
+
+[Caputo and Kargina (2021)](https://drive.google.com/file/d/1UrITi7FYM4dJCRke5u_fzJoHMdrKgkww/view?usp=share_link) - A user‑friendly method to merge Scopus and Web of Science data during bibliometric analysis.
+
+[Nakagawa et al. (2018)](https://drive.google.com/file/d/19KIr-j2MBSbSIN94qaik_Kgu6j_XKRkt/view?usp=share_link) - Research Weaving: Visualizing the Future of
+Research Synthesis.
+
+
+# Additional Resources and Collaborative Space:
+
+To facilitate a more comprehensive and collaborative learning experience, we have set up a shared Google Drive folder and a GitHub repository. Here, you will find all of the workshop's materials and resources, including:
+
+**Google Drive Folder:**
+
+Contains pre-workshop readings, slides from each session, and any additional resources we may use during the workshop.
+To access the folder, please follow this link: [Google Drive Folder Link](https://drive.google.com/drive/folders/1Mw6cWYZZxRlZTQAUYZofifyY_xkmcVeK?usp=share_link)
+
+**GitHub Repository:**
+
+Includes all R scripts used during the workshop, as well as example datasets and outputs.
+To access the repository, please follow this link: [GitHub Repository Link][]
+Feel free to add your own resources or suggestions to these collaborative spaces. 
+
+
+
+
+
+
+
+
+
+  
