@@ -1,0 +1,105 @@
+---
+title: "Introductory Workshop to Bibliometrics"
+author: "Luis Carlos Castillo"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  beamer_presentation:
+    keep_tex: true
+    citation_package: natbib
+    includes:
+      in_header: mystyle2.tex
+  slidy_presentation: default
+  powerpoint_presentation: default
+institute: |
+  | University of Urbino
+  | Ph.D. Program in Global Studies
+editor_options:
+  markdown:
+    wrap: 72
+bibliography: references.bib
+link-citations: yes
+linkcolor: myblue
+natbiboptions: round
+header-includes:
+  - \usepackage{etoolbox}
+  - \AtBeginEnvironment{thebibliography}{\scriptsize}
+biblio-style: "apalike"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+-   This section will provide an overview of bibliometrics and the
+    importance of bibliometric analysis.
+
+-   Search in the Web of Science and Scopus platforms.
+
+-   Identify different tools but focusing on R programming language.
+
+# What is Bibliometrics?
+
+Following @donthu2021, @ellegaard2015, @Aria2017, and @bornmann2015
+bibliometric analysis:
+
+-   Is a methodology that applies quantitative techniques to
+    bibliographic data and plays a vital role in evaluating research
+    output.
+-   This technique allows researchers to uncover emerging trends
+    identifying knowledge gaps in specific domains and analyze a
+    significant quantity of documents .
+-   It offers three types of analysis: performance analysis, science
+    mapping, and network analysis.
+
+# Types of Analysis I
+
+## Performance Analysis
+
+```{=tex}
+\begin{center}
+\includegraphics[width=1\textwidth]{pic_1.png}
+\end{center}
+```
+# Types of Analysis II
+
+## Science Mapping
+
+```{=tex}
+\begin{center}
+\includegraphics[width=1\textwidth]{pic_2.png}
+\end{center}
+```
+# Types of Analysis III
+
+## Network Analysis
+
+```{=tex}
+\begin{center}
+\includegraphics[width=1\textwidth]{pic_3.png}
+\end{center}
+```
+
+# Why is it important?
+
+-	Identifying Relevant Literature
+-	Assessing Research Impact
+-	Understanding Research Trends 
+-	Choosing Where to Publish
+-	Choosing Where to Do Research
+
+# The role of digital platforms I
+
+## Digital libraries
+
+```{=tex}
+\begin{center}
+\includegraphics[width=1\textwidth]{pic_4.png}
+\end{center}
+```
+
+# Web of Science and Scopus
+
+# References
+
