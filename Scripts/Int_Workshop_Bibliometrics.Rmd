@@ -124,4 +124,15 @@ platforms.
 Google Drive Repository [*Introductory Workshop to
 Bibliometrics*](https://drive.google.com/drive/folders/1Mw6cWYZZxRlZTQAUYZofifyY_xkmcVeK)*.*
 
+# Resources
+
+-   [Web of Science Core
+    Collection](https://images.webofknowledge.com/images/help/WOS/hs_wos_fieldtags.html):
+    these are the abbreviations of column names.
+
+-   [Bibliometrix Web
+    Site](https://www.bibliometrix.org/vignettes/Introduction_to_bibliometrix.html):
+    Shares documentation about bibliometrix package and biblioshiny
+    application.
+
 # References
