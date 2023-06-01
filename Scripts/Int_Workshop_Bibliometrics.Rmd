@@ -80,14 +80,21 @@ bibliometric analysis:
 \includegraphics[width=1\textwidth]{pic_3.png}
 \end{center}
 ```
-
 # Why is it important?
 
--	Identifying Relevant Literature
--	Assessing Research Impact
--	Understanding Research Trends 
--	Choosing Where to Publish
--	Choosing Where to Do Research
+-   Identifying Relevant Literature
+-   Assessing Research Impact
+-   Understanding Research Trends and Relationships
+-   Choosing Where to Publish
+-   Choosing Where to Do Research
+
+# Limitations
+
+-   Citations bias
+
+-   Bibliometrics does not replace in-depth reading the literature
+
+-   The Mathew effect
 
 # The role of digital platforms I
 
@@ -98,8 +105,23 @@ bibliometric analysis:
 \includegraphics[width=1\textwidth]{pic_4.png}
 \end{center}
 ```
+# The Web of Science and Scopus
 
-# Web of Science and Scopus
+-   Integrating Web of Science and Scopus databases is complex and
+    requires a structured workflow, as pointed out by @echchakoui2020
+    and @caputo2022.
+
+-   Merging these databases can help mitigate resource bias in research.
+    However, other biases such as retrieval bias and medium bias may
+    persist.
+
+# Hands-On The Data
+
+Please open the [University of Urbino Website](https://www.uniurb.it/)
+and enter with your credentials to the Web of Science and Scopus
+platforms.
+
+Google Drive Repository [*Introductory Workshop to
+Bibliometrics*](https://drive.google.com/drive/folders/1Mw6cWYZZxRlZTQAUYZofifyY_xkmcVeK)*.*
 
 # References
-

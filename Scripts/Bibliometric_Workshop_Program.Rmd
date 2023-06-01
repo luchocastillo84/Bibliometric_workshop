@@ -43,6 +43,20 @@ Unlike traditional techniques, bibliometric analysis allows for a quantitative a
 
 When used in conjunction with qualitative methods like systematic reviews, bibliometric analysis can provide a more holistic understanding of a research field. While systematic reviews offer in-depth insights into selected papers, bibliometric analysis can give a broader overview, uncovering patterns and trends that might not be apparent from a narrower focus.
 
+## Workshop Location and Schedule
+
+The workshop will be conducted online, and you can access it using the following link: [Insert link here].
+
+**Session 1:**
+
+- Date: Monday, June 5, 2023
+- Time: 14:00
+
+**Session 2:**
+
+- Date: Wednesday, June 7, 2023
+- Time: 14:00
+
 #    Session 1: Data Collection and Preparation (1 hour)
 
 ###   1. Introduction (15 minutes)
@@ -71,7 +85,7 @@ When used in conjunction with qualitative methods like systematic reviews, bibli
   - Using R functions to explore and understand data (head, summary, str)
   
 
-#   Session 2: Data processing and Merging (1 hour)
+#   Session 2: Data processing and Merging (1 hour) 
 
 
 ###    1. Data Processing (30 minutes)
