@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.30)  1 JUN 2023 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.30)  5 JUN 2023 09:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,12 +429,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 85.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 172.
+(hyperref)                than one, level fixed on input line 174.
 
-<UniUrb-logo.png, id=77, 711.3777pt x 337.7418pt>
+<UniUrb-logo.png, id=78, 711.3777pt x 337.7418pt>
 File: UniUrb-logo.png Graphic file (type png)
 <use UniUrb-logo.png>
-Package pdftex.def Info: UniUrb-logo.png  used on input line 179.
+Package pdftex.def Info: UniUrb-logo.png  used on input line 181.
 (pdftex.def)             Requested size: 107.8635pt x 51.21051pt.
 
 Package fancyhdr Warning: \headheight is too small (40.45274pt): 
@@ -448,11 +448,11 @@ Package fancyhdr Warning: \headheight is too small (40.45274pt):
 {/Users/lcastillot/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/lcastillot/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/lcastillot/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./UniUrb-logo.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 234.
+(hyperref)                than one, level fixed on input line 236.
 
 File: UniUrb-logo.png Graphic file (type png)
 <use UniUrb-logo.png>
-Package pdftex.def Info: UniUrb-logo.png  used on input line 305.
+Package pdftex.def Info: UniUrb-logo.png  used on input line 307.
 (pdftex.def)             Requested size: 107.8635pt x 51.21051pt.
 
 Package fancyhdr Warning: \headheight is too small (40.45274pt): 
@@ -464,7 +464,7 @@ Package fancyhdr Warning: \headheight is too small (40.45274pt):
 [2]
 File: UniUrb-logo.png Graphic file (type png)
 <use UniUrb-logo.png>
-Package pdftex.def Info: UniUrb-logo.png  used on input line 364.
+Package pdftex.def Info: UniUrb-logo.png  used on input line 366.
 (pdftex.def)             Requested size: 107.8635pt x 51.21051pt.
 
 Package fancyhdr Warning: \headheight is too small (40.45274pt): 
@@ -486,10 +486,10 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  63i,15n,67p,534b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/lcastillot/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/lcastillot/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/lcastillot/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/lcastillot/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/lcastillot/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/lcastillot/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb></Users/lcastillot/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/lcastillot/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmro10.pfb>
-Output written on Bibliometric_Workshop_Program.pdf (3 pages, 1040612 bytes).
+Output written on Bibliometric_Workshop_Program.pdf (3 pages, 1040701 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
+ 186 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
  40 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
