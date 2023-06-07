@@ -112,8 +112,7 @@ bibliometric analysis:
     and @caputo2022.
 
 -   Merging these databases can help mitigate resource bias in research.
-    However, other biases such as retrieval bias and medium bias may
-    persist.
+    However, other biases such as retrieval bias may persist.
 
 # Hands-On The Data
 
